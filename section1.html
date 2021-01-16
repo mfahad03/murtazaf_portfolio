@@ -1,0 +1,172 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" type="image/png" href="Images/favicon.png">
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg" >
+		<img id="nav_icon" class="img " src="Images/nav_icon.png"/> 
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item ">
+					<a id="nav_text" class="navbar-brand active" href="index.html">Home</a>
+				</li>
+				<li class="nav-item dropdown nav-item ">
+					<a id="nav_text"class="navbar-brand dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Projects</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a id="nav_drop_text"class="dropdown-item" href="section1.html">Section 1</a>
+						<a id="nav_drop_text"class="dropdown-item" href="section2.html">Section 2</a>
+						<div class="dropdown-divider"></div>
+						<a id="nav_drop_text" class="dropdown-item" href="#">Other</a>
+		  			</div>
+				</li> 
+				<li class="nav-item ">
+					<a id="nav_text" class="navbar-brand" href="resume.html">Resume <span class="sr-only">(current)</span></a>
+				</li>
+	 	 	</ul>
+		</div>
+    </nav>
+    <div id = "container">
+		<div id = "main"> 
+            <!-- Highlights -->
+            <section class="wrapper">
+                <div class="inner" >
+                    <div id="base">
+                        <h2>Projects</h2>
+                        </h2>
+                    </div>
+                    <div class="highlights">
+                        <section>
+                            <div id= "project_content" class="content">
+                                <img src="Images/park_free.png" alt="Mountains" style="width:100%">
+                                <h3>Park Free </h3>
+                                <p id = "info">
+                                    Project is aimed at easing TRU parking congestion by providing real-time updates for users (students and staff) to
+                                    view the current 
+                                    <span id="dots">...</span><span id="more"> 
+                                    parking availability for different parking lots 
+                                    at TRU and plan their route accordingly before leaving their house, rating their experiences and the accuracy of the data at the end of their journey.
+                                    https://mfahad07.github.io/index.html<br>  
+                                    <a href="Project_Docs/COMP 3450 -HCI Presentation.pdf" download><img src="Images/pdf_logo.png">download</a> 
+                                    </span>
+                                </p>        
+                                <button onclick="myFunction()" type="button" class="btn btn-secondary" id="myBtn">More</button>
+                            </div>
+                        </section>
+                        <section>
+                            <div id= "project_content" class="content">
+                                <img src="Images/project_messenger.png" alt="Lights" style="width:100%;">
+                                <h3>Web Messenger</h3>
+                                <p id ="info"> A Chat web application for users to send messages to each other, so the idea is basically a user sign’s up and login in to the webpage, 
+                                    sees the
+                                    <span id="dots_project_2">...</span><span id="more_project_2">
+                                    option to find a user or list all users (stored in the database), after selecting the user is added to the contacts list and then 
+                                    the users are able to send messages. 
+                                    Side note: when a user sends a messages it’s stored in the database server and retrieved for the other user.
+                                </span>
+                                </p>
+                                <button onclick="project2()" type="button" class="btn btn-secondary" id="myBtn2">More</button>
+                            </div>
+                        </section>
+                        <section>
+                            <div id= "project_content" class="content">
+                                <img src="Images/manutd.png" alt="Mountains" style="width:100%">
+                                <h3>(Man Utd) Fan Page</h3>
+                                <p id = "info">
+                                    Project is based on a football fan page webpage application, an application that will contain all information for a football club.
+                                    view 
+                                    <span id="dots_project_3">...</span><span id="more_project_3">
+                                        the current Squad 
+                                        The application will show users all about manutd, squad list and other information about the club.<br>  
+                                        https://mfahad03.github.io/web1.github.io/
+                                    <a href="Project_Docs/COMP 3450 -HCI Presentation.pdf" download> download<img src="Images/pdf_logo.png"></a> 
+                                    </span>
+                                </p>
+                                <button onclick="project3()" type="button" class="btn btn-secondary" id="myBtn3">More</button>
+                            </div>
+                        </section>
+                        <!-- <section>
+                            <div id= "tab_content" class="content">
+                                <img src="Images/park_free.png" alt="Mountains" style="width:100%">
+                                <h3>Park Free </h3>
+                                <p id = "info">
+                                    Our project is aimed at easing TRU parking congestion by providing real-time updates for users (students and staff) to
+                                    view the current <span id="dots">...</span><span id="more"> parking availability for different parking lots 
+                                    at TRU and plan their route accordingly before leaving their house, rating their experiences and the accuracy of the data at the end of their journey.
+                                    https://mfahad07.github.io/index.html<br>  
+                                    <a href="Project_Docs/COMP 3450 -HCI Presentation.pdf" download> download<img src="Images/pdf_logo.png"></a> 
+                                    </span>
+                                </p>
+                                <button onclick="" type="button" class="btn btn-secondary" id="myBtn">More</button>
+                            </div>
+                        </section> -->
+                    </div>
+                </div>
+            </section>  
+		</div>
+    </div>
+    <script>
+        function myFunction() {
+          var dots = document.getElementById("dots");
+          var moreText = document.getElementById("more");
+          var btnText = document.getElementById("myBtn");
+        
+          if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "More"; 
+            moreText.style.display = "none";
+          } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Less"; 
+            moreText.style.display = "inline";
+          }
+        }
+        function project2() {
+          var dots = document.getElementById("dots_project_2");
+          var moreText = document.getElementById("more_project_2");
+          var btnText = document.getElementById("myBtn2");
+        
+          if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "More"; 
+            moreText.style.display = "none";
+          } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Less"; 
+            moreText.style.display = "inline";
+          }
+        }
+        function project3() {
+          var dots = document.getElementById("dots_project_3");
+          var moreText = document.getElementById("more_project_3");
+          var btnText = document.getElementById("myBtn3");
+        
+          if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "More"; 
+            moreText.style.display = "none";
+          } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Less"; 
+            moreText.style.display = "inline";
+          }
+        }
+        </script> -->
+	<!-- Footer -->
+	<footer id="footer">
+		<p>Email: Fahad Murtaza<br> Phone: 867-446-4181 <br> Email: fahad.murtaza07@gmail.com</p>			
+	</footer>
+	
+</body>
+</html>
+	

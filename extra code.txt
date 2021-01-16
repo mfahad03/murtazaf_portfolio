@@ -1,0 +1,76 @@
+<!-- <div id = "container">
+		<div id = "section1_main"> 
+            <div id="base">
+				<h2>Projects</h2>
+            </div> 
+             Portfolio Gallery Grid -->
+            <!-- <div class="row">
+                <div class="column">
+                    <div class="content">
+                        <img src="Images/park_free.png" alt="Mountains" style="width:100%">
+                        <h3>Park Free</h3>
+                        <p>Our project is aimed at easing TRU parking congestion by providing real-time updates for users (students and staff) to
+                            view the current <span id="dots">...</span><span id="more"> parking availability for different parking lots 
+                            at TRU and plan their route accordingly before leaving their house, rating their experiences and the accuracy of the data at the end of their journey.
+                            https://mfahad07.github.io/index.html
+                           <br>
+                            <a href="Project_Docs/COMP 3450 -HCI Presentation.pdf" download> download
+                                <img src="Images/pdf_logo.png">
+                            </a> 
+                        </span>
+                        </p>
+                        <button onclick="myFunction()" type="button" class="btn btn-secondary" id="myBtn">More</button>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="content">
+                        <img src="Images/project_messenger.png" alt="Lights" style="width:100%; height: 50%;" >
+                        <h3>Web Messenger</h3>
+                        <p> A Chat web application for users to send messages to each other, so the idea is basically a user sign’s up and login in to the webpage, 
+                            sees the
+                            <span id="dots">...</span><span id="more">
+                                option to find a user or list all users (stored in the database), after selecting the user is added to the contacts list and then 
+                            the users are able to send messages. 
+                            Side note: when a user sends a messages it’s stored in the database server and retrieved for the other user.
+                        </span>
+                        </p>
+                        <button onclick="myFunction()" type="button" class="btn btn-secondary" id="myBtn">More</button>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="content">
+                        <img src="Images/manutd.png" alt="Nature" style="width:100%">
+                        <h3>(Man Utd) Fan Page</h3>
+                        <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus 
+                            sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.
+                        </p>
+                        <button onclick="myFunction()" type="button" class="btn btn-secondary" id="myBtn">More</button>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="content">
+                        <img src="Images/manutd_app.png" alt="Mountains" style="width:100%; height: 50%;" >
+                        <h3>Man Utd App</h3>
+                        <p>Project based on a football fan page application, an application that will contain all information for a football club.
+                            <span id="dots">...</span><span id="more">
+                            The application will show users football news about the club, upcoming games, squad list and other information about the club. Below is list of ideas I had to include in the application.
+                                <a href="Project_Docs/Mobile App Final Project .pdf" download> download
+                                <img src="Images/pdf_logo.png">
+                            </a> 
+                         </span>
+                        </p>
+                        <button onclick="myFunction()" type="button" class="btn btn-secondary" id="myBtn">More</button>
+                    </div>
+                </div> -->
+                
+            <!-- END GRID 
+            </div>-->
+  
+            <!-- <div class="content">
+                <img src="/w3images/p3.jpg" alt="Bear" style="width:100%">
+                <h3>Some Other Work</h3>
+                <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+                <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+            </div> 
+		</div>
+    </div>-->
